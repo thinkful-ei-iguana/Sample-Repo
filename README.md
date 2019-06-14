@@ -1,4 +1,4 @@
-##How to host your submission using Github Pages
+## How to host your submission using Github Pages
 
 1. Create a local branch named gh-pages:
 
