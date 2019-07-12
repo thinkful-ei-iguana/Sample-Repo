@@ -8,22 +8,25 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <form id="contactForm" action="#">
-    <div>
-      <label for="firstname">First Name</label>
-      <input type="text" id="firstname" name="firstname" placeholder="Enter first name">
-    </div>
-    <div>
-      <label for="lastname">Last Name</label>
-      <input type="text" id="lastname" name="lastname" placeholder="Enter last name">
-    </div>
-    <div>
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Enter email">
-    </div>
-    <div>
-      <input type="submit" name="submit" id="submit" value="Submit Form">
-  </form>
+  <main>
+    <h1 tabindex="0">Sample App</h1>
+    <form id="contactForm" action="#">
+      <div>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required>
+      </div>
+      <div>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+      </div>
+      <div>
+        <input type="submit" name="submit" id="submit" value="Submit Form">
+    </form>
+  </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="form.js"></script>
 </body>

@@ -6,7 +6,7 @@
 body {
   font-family: Arial, sans-serif;
 }
-form {
+form, main {
   padding: 2.5rem;
   width: 30rem;
   margin: 0 auto;

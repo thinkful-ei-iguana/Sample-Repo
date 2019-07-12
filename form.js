@@ -14,5 +14,7 @@ $('#contactForm').submit(event => {
   // let formElement = document.querySelector("#contactForm");
   let formElement = $('#contactForm')[0];
   // the [0] here selects the native element
-  console.log( serializeJson(formElement) );
+  $('#contactForm').html(`
+    <p>Your form submission has been received!</p>
+  `);
 });
