@@ -32,3 +32,8 @@ div {
   margin: .5rem 0;
   padding: 0;
 }
+
+.counter {
+  color: red;
+  font-weight: 700;
+}

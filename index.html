@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,11 @@
   <title>FormData Example</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <main>
     <h1 tabindex="0">Sample App</h1>
+    <div aria-live="polite">This form has been submitted <span class="counter">0</span> time(s).</div>
     <form id="contactForm" action="#">
       <div>
         <label for="firstname">First Name</label>
@@ -27,7 +30,8 @@
         <input type="submit" name="submit" id="submit" value="Submit Form">
     </form>
   </main>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="true"></script>
   <script src="form.js"></script>
 </body>
+
 </html>
